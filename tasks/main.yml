@@ -7,4 +7,7 @@
   ansible.builtin.apt:
     name: nginx
     state: present
-
+- name: installing python
+  ansible.builtin.apt:
+    name: python3
+    state: present
